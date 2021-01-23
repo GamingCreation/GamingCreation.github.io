@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+  color: white;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+  color: white;
+}
+#logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+  color: white;
+}
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/FondG&C.png) no-repeat fixed 100% 41%;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: white;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: white;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color:white;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* *************** PRESENTATION ********************** */
+#telecharger {
+    background-color: #014f86;
+    background-size: 100%;
+}
+#texteIntro {
+  padding: 0px 20%;
+  color: white;
+}
+#categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;  
+}
+.imagesCategories h4 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+    color: white;
+}
+.imagesCategories img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+    .imagesCategories img:hover {
+        opacity: 0.5;
+        transform: scale(1.05);
+        transition: 0.6s ease-in-out;
+    }
+p {
+    text-align: center;
+}
+/* **************** Moteurs de Jeux ************** */
+#moteursDeJeux {
+    height: 1400px;
+    background-color: #63a8dc;
+    padding: 1px 2%;
+}
+#moteursDeJeux h2 {
+    padding-top: 60px;
+}
+#unity {
+    background: url(media/unity.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-style: italic;
+}
+#unreal {
+    background: url(media/unreal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-style: italic;
+}
+#godot {
+    background: url(media/godot.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-style: italic;
+}
+#rpgmaker {
+    background: url(media/rpgmaker.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-style: italic;
+}
+#moteursDeJeux li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#moteursDeJeux p {
+    height: 45px;
+    width: 235px;
+    background-color: #01DF74;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+#moteursDeJeux #unreal, #moteursDeJeux #rpgmaker {
+    float: right;
+}
+#unreal p, #rpgmaker p {
+  float: left;
+  background-color: cyan;
+  margin-left: -180px;
+  box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+/* ******************* FOOTER ******************** */
+footer {
+  background-color: #014f86;
+  color: white;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+#discord {
+    font-size: 60px;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: white;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: white;
+}
+/* ******** Message : pas de jeux publi?s ******* */
+h6 {
+    color: #a9a9a9;
+    font-size: 125px;
+    text-align: center;
+}
+/* *********** Les tableaux *********** */
+h5{
+    margin-left: 80px;
+    font-size:40px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 40px;
+}
+td {
+    border: 1px solid black;
+    padding:10px;
+    text-align:center;
+}
+/* ************* Jeu3D.html ************* */
+#GitHub {
+    color: blue;
+    font-style: italic;
+}
