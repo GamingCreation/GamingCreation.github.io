@@ -57,7 +57,7 @@ header li a {
   padding-top: 60px;
   background: url(media/FondG&C.png) no-repeat fixed 100% 41%;
   background-size: cover;
-  height: 799px;
+  height: 850px;
 }
 h1 {
   font-family: 'Dancing Script', cursive;
@@ -184,7 +184,12 @@ footer {
   text-align: center;
 }
 #discord {
-    font-size: 60px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+#discord:hover {
+    transform: scale(1.02) translateY(-2px);
 }
 #deuxiemeTrait {
   height: 1px;
@@ -201,6 +206,28 @@ footer {
   width: 50%;
   text-align: left;
   color: white;
+}
+.emailBtn {
+    display: block;
+    padding: 5px 40px 10px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    border-radius: 30px;
+    margin: 20px auto;
+    font-size: 40px;
+    font-family: inherit;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-left: 750px;
+}
+.emailBtn:hover {
+    transform: scale(1.02) translateY(-2px);
+}
+.emailBtn:active {
+    transform: scale(0.98) translateY(1px);
 }
 /* ******** Message : pas de jeux publi?s ******* */
 h6 {
@@ -222,8 +249,17 @@ td {
     padding:10px;
     text-align:center;
 }
-/* ************* Jeu3D.html ************* */
-#GitHub {
+/* ************* Info/Jeu2D/Jeu3D.html ************* */
+#lien {
     color: blue;
     font-style: italic;
+}
+#pixelRunBtn {
+  background-color: greenyellow;
+  border: none;
+  border-radius: 5px;
+}
+table tr td button:hover {
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
 }
