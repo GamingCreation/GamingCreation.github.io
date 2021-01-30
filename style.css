@@ -207,29 +207,7 @@ footer {
   text-align: left;
   color: white;
 }
-.emailBtn {
-    display: block;
-    padding: 5px 40px 10px;
-    border: none;
-    outline: none;
-    background-color:transparent;
-    border-radius: 30px;
-    margin: 20px auto;
-    font-size: 40px;
-    font-family: inherit;
-    color: #fff;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
-    cursor: pointer;
-    transition: all 0.2s;
-    margin-left: 750px;
-}
-.emailBtn:hover {
-    transform: scale(1.02) translateY(-2px);
-}
-.emailBtn:active {
-    transform: scale(0.98) translateY(1px);
-}
-/* ******** Message : pas de jeux publi?s ******* */
+/* ******** Message : pas de jeux publiés ******* */
 h6 {
     color: #a9a9a9;
     font-size: 125px;
